@@ -16,12 +16,11 @@ const map = new Map({
         attributionsCollapsible: false,
         url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
         maxZoom: 23,
-        zoom: 21,
       }),
     }),
   ],
   view: new View({
     center: fromLonLat([17.91378, 47.092972]),
-    zoom: 7,
+    zoom: 16,
   }),
 });
